@@ -1,0 +1,152 @@
+/* CSS */
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+.picContainer {
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+.div1 {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 40vw;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.div2 {
+    display: flex;
+    background-color: rgb(228, 225, 225);
+    width: 60vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div3 {
+    display: flex;
+    z-index: 2;
+    width: 38.8vw;
+    height: 10vh;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    top: calc(33.33vh - 5vh);
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 30px 10px;
+    left: 0;
+    right: auto;
+}
+
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    border-bottom: 10px ridge rgb(230, 226, 226);
+
+
+
+}
+
+.firstInputSet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.secondInputSet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div2 button {
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+h2 {
+    padding: 0 100px 0 100px;
+    color: #4d6b91;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.btn {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    -webkit-box-shadow: 6px 8px 11px #666666;
+    -moz-box-shadow: 6px 8px 11px #666666;
+    box-shadow: 6px 8px 11px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 23px;
+    background: #4d6b91;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #529bbd;
+    text-decoration: none;
+}
+
+input {
+    border-radius: 5px;
+    width: 250px;
+    height: 25px;
+}
+
+label {
+    text-align: left;
+}
+
+h4 {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4d6b91;
+    margin-left: 40px;
+}
+a {
+    color: #4d6b91;
+}
