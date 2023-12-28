@@ -128,6 +128,11 @@ input {
     border-radius: 5px;
     width: 250px;
     height: 25px;
+    box-shadow: #afcbe0 0px 5px 3px 0px;
+}
+
+input:focus {
+    background-color: #cddce2;
 }
 
 label {
@@ -149,4 +154,9 @@ legend {
 }
 a {
     color: #4d6b91;
+}
+
+
+.error {
+    border-color: red !important;
 }
